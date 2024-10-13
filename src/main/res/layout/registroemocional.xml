@@ -1,0 +1,88 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#E0F0FF">
+
+    <!-- Título da Tela -->
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Histórico Emocional dos Últimos 30 Dias"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="16dp"
+        android:gravity="center" />
+
+    <!-- Gráfico de Tendências (substituir por um gráfico real) -->
+    <TextView
+        android:id="@+id/tv_trend_graph"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#FFFFFF"
+        android:text="Gráfico de Tendência (aqui pode ser um gráfico)"
+        android:gravity="center"
+        android:textColor="#B0BEC5"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Lista de Registros Emocionais -->
+    <TextView
+        android:id="@+id/tv_records_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registros Emocionais"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_emotions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_registrar_checkin"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#73B7FF"
+        android:padding="12dp"
+        android:text="AJUDA"
+        android:textColor="@android:color/white" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btn_voltar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Voltar"
+            android:backgroundTint="#D7CCC8"
+            android:contentDescription="Voltar para a tela anterior" />
+
+        <Button
+            android:id="@+id/btn_proximo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Próximo"
+            android:backgroundTint="#D7CCC8"
+            android:contentDescription="Ir para a próxima tela" />
+    </LinearLayout>
+
+</LinearLayout>
+
+

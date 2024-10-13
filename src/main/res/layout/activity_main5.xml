@@ -1,0 +1,86 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#E0F0FF"> <!-- Cor de fundo azul claro -->
+
+    <!-- Título da Página -->
+    <TextView
+        android:id="@+id/tv_contact_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contate Profissionais ou Grupos de Ajuda"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="16dp"
+        android:gravity="center" />
+
+    <!-- Descrição -->
+    <TextView
+        android:id="@+id/tv_contact_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Se você precisa de apoio, aqui estão alguns profissionais e grupos que podem ajudar:"
+        android:textSize="16sp"
+        android:textColor="#616161"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"/>
+
+    <!-- Profissional 1 -->
+    <Button
+        android:id="@+id/btn_professional_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="#FFFFFF"
+        android:text="Profissional 1: Dr. Ana Silva\nEspecialidade: Psicologia\nTelefone: (11) 91234-5678\nEmail: ana.silva@email.com"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Profissional 2 -->
+    <Button
+        android:id="@+id/btn_professional_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="#FFFFFF"
+        android:text="Grupo de Apoio: Grupo Esperança\nTelefone: (11) 98765-4321\nEmail: grupo.esperanca@email.com"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Profissional 3 -->
+    <Button
+        android:id="@+id/btn_professional_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="#FFFFFF"
+        android:text="Profissional 3: Dr. João Pereira\nEspecialidade: Psiquiatria\nTelefone: (11) 99876-5432\nEmail: joao.pereira@email.com"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Navegação -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btn_voltar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Voltar"
+            android:backgroundTint="#D7CCC8"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

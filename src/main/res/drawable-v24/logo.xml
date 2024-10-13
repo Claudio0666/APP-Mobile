@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <image id="image1">
+        <position>
+            <absolute />
+            <width>165px</width>
+            <height>213px</height>
+            <left>115px</left>
+            <top>35px</top>
+        </position>
+        <background>
+            <url>624d25ac-1cc3-4688-ba91-b3c5b04aba18-removebg-preview.png</url>
+        </background>
+    </image>
+</selector>

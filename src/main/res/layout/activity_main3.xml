@@ -1,0 +1,112 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#E0F0FF"> <!-- Cor de fundo azul claro -->
+
+    <!-- Pergunta sobre o estado emocional -->
+    <TextView
+        android:id="@+id/question_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Como você está se sentindo hoje?"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Opções de estado emocional -->
+    <Button
+        android:id="@+id/btn_feliz"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="FELIZ"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_calma"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#81D4FA"
+        android:text="CALMA"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_ansiosa"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:text="ANSIOSA"
+        android:backgroundTint="#FFCDD2"
+        android:textColor="#000000"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btn_cansada"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:text="CANSADA"
+        android:backgroundTint="#D7CCC8"
+        android:textColor="#000000"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btn_estressada"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:text="ESTRESSADA"
+        android:backgroundTint="#FFAB91"
+        android:textColor="#000000"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btn_triste"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:text="TRISTE"
+        android:backgroundTint="#CE93D8"
+        android:textColor="#000000"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Botão de registrar check-in -->
+    <Button
+        android:id="@+id/btn_registrar_checkin"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#73B7FF"
+        android:padding="12dp"
+        android:text="REGISTRAR MEU CHECK-IN"
+        android:textColor="@android:color/white" />
+
+    <!-- Navegação -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btn_voltar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="voltar"
+            android:backgroundTint="#D7CCC8"/>
+
+        <Button
+            android:id="@+id/btn_proximo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="próximo"
+            android:backgroundTint="#D7CCC8"/>
+    </LinearLayout>
+
+</LinearLayout>

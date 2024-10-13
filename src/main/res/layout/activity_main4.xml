@@ -1,0 +1,119 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#E0F0FF">
+
+    <!-- Texto de sugestão inicial -->
+    <TextView
+        android:id="@+id/tv_suggestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hoje parece que você está um pouco ansiosa.\nQue tal tentar uma destas ações?"
+        android:textColor="#616161"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Dica de Alimentação -->
+    <TextView
+        android:id="@+id/tv_food_tip_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DICA DE ALIMENTAÇÃO"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_food_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beba um copo de água, A hidratação é importante.  Faça uma pausa rápida para se hidratar."
+        android:padding="16dp"
+        android:background="#E1F5FE"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"/>
+
+    <!-- Dica de Exercícios -->
+    <TextView
+        android:id="@+id/tv_exercise_tip_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DICA DE EXERCÍCIOS"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_exercise_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faça 5 respirações profundas, Respire profundamente e de maneira controlada enquanto levanta e abaixa os braços, ajudando a relaxar e liberar tensão."
+        android:padding="16dp"
+        android:background="#C8E6C9"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"/>
+
+    <!-- Dicas sobre Autismo -->
+    <TextView
+        android:id="@+id/tv_autism_tip_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DICAS SOBRE AUTISMO"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_autism_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adapte os ambientes para reduzir estímulos.\nCrie um espaço tranquilo em casa, diminuindo barulhos e luzes excessivas, tanto para seu filho quanto para você relaxarem em momentos de sobrecarga sensorial."
+        android:padding="16dp"
+        android:background="#FFE0B2"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"/>
+
+    <!-- Navegação -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btn_voltar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="voltar"
+            android:backgroundTint="#D7CCC8"/>
+
+        <Button
+            android:id="@+id/btn_proximo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="próximo"
+            android:backgroundTint="#D7CCC8"/>
+    </LinearLayout>
+
+</LinearLayout>
+

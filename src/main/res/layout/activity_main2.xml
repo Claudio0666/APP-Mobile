@@ -1,0 +1,98 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#E0F0FF"> <!-- Fundo azul claro -->
+
+    <!-- Logo do App -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="32dp"
+        android:contentDescription="Logo do App"
+        android:src="@drawable/logo_teiatech" /> <!-- Imagem do logo -->
+
+    <!-- Campo de Nome Completo -->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_marginBottom="16dp"
+        android:padding="15dp"
+        android:text="CADASTRO"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/full_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome Completo"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FFFFFF"
+        android:background="@android:drawable/edit_text" />
+
+    <!-- Campo de E-mail -->
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FFFFFF"
+        android:background="@android:drawable/edit_text" />
+
+    <!-- Campo de Senha -->
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FFFFFF"
+        android:background="@android:drawable/edit_text" />
+
+    <!-- Campo de Confirmar Senha -->
+    <EditText
+        android:id="@+id/confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirmar Senha"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FFFFFF"
+        android:background="@android:drawable/edit_text" />
+
+    <!-- Botão de Cadastro -->
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#73B7FF"
+        android:padding="12dp"
+        android:text="Cadastrar"
+        android:textColor="@android:color/white" />
+
+    <!-- Link para Voltar ao Login -->
+    <TextView
+        android:id="@+id/login_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Já tem uma conta? Faça login"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="14sp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
